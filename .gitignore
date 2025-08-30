@@ -1,0 +1,63 @@
+# General Dependencies
+node_modules/
+
+# Environment Variables
+# Never commit your secrets!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Server-Side (Node.js / Express) ---
+
+# Uploads folder (for patient reports)
+/server/uploads/
+
+# Production build folder (if you create one)
+/server/dist/
+
+
+# --- Client-Side (Next.js) ---
+
+# Build directory
+/client/.next/
+
+# Production build
+/client/out/
+
+# Static exports
+/client/export
+
+# Other Next.js specific
+/client/next-env.d.ts
+/client/.swc/
+
+# --- Operating System Files ---
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
