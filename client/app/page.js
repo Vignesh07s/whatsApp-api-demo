@@ -95,7 +95,7 @@ function CreateVisit({ setFeedbackMessage }) {
       <h2 className="text-xl font-bold mb-4 text-gray-700">2. Create Follow-up Visit</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label htmlFor="visit-phone" className="block text-sm font-medium text-gray-600 mb-1">Patient's WhatsApp Number</label>
+          <label htmlFor="visit-phone" className="block text-sm font-medium text-gray-600 mb-1">Patient&apos;s WhatsApp Number</label>
           <input type="text" id="visit-phone" value={phone} onChange={(e) => setPhone(e.target.value)} className="w-full px-3 py-2 border rounded-md" placeholder="Find patient by phone number" required />
         </div>
         <button type="submit" disabled={isLoading} className="w-full bg-green-600 text-white py-2 rounded-md disabled:bg-gray-400">
